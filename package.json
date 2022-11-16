@@ -1,6 +1,12 @@
 {
   "name": "gu",
   "packageManager": "yarn@3.2.4",
+  "type": "module",
+  "bin": "gu.js",
+  "pkg": {
+    "assets": "node_modules/**/*",
+    "targets": [ "latest-win-x86" ]
+  },
   "dependencies": {
     "@planetarium/account-raw": "^0.0.0",
     "@planetarium/sign": "^0.0.3"
